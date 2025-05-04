@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+
+.background{
+  padding: 10px;
+  background: linear-gradient(to bottom, rgba(131, 238, 252, 0.501) 0%, rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgb(237, 237, 237) 100%);
+  width: auto;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  padding: 5px;
+  background-color: #b8faf9e7;
+}
+.logo1{
+  border-top: 4px solid  #2bdafdb0;
+  border-bottom: 4px solid  #2bdafdb0;
+  border-left: 4px solid  #2bdafdb0;
+  border-top-left-radius: 30px;
+}
+.logo2{
+  border-top: 4px solid  #2bdafdb0;
+  border-bottom: 4px solid  #2bdafdb0;
+  border-right: 4px solid  #2bdafdb0;
+  border-bottom-right-radius: 25px;
+}
+
+.nav ul{
+  padding: 10px;
+  display: flex;
+  gap: 25px;
+}
+.nav ul li{
+  list-style-type: none;
+}
+.nav a{
+  text-decoration: none;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97, 94, 94);
+}
+.nav a:hover{
+  color: rgb(49, 170, 231);
+  border-bottom: 2px solid  rgb(49, 170, 231);
+}
+
+.button1{
+  padding: 10px;
+  padding: 10px;
+  border: #fff;
+  border-radius: 10px;
+  background-color: rgb(65, 185, 233);
+}
+.button1 a{
+  text-decoration: none;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button1:hover{
+  background-color: rgb(28, 183, 245);
+}
+
+.col{
+  flex-direction: column-reverse;
+}
+
+.col{
+  position: absolute;
+  display: flex;
+  top: 30%;
+  left: 30%;
+  flex-direction: column;
+}
+.col1{
+  padding-left:210px ;
+  color: #7ab0e6;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col2{
+  color: #3a3c3ec0;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.c{
+  background: linear-gradient(to left, rgba(237, 237, 237, 0.721) 100%, rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgb(237, 237, 237) 100%);
+  width: auto;
+  height: 80vh;
+}
+
+.c1{
+  position: relative;
+}
+.table1{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table1-tr td{
+  padding-left: 130px;
+  color: rgb(57, 126, 247);
+}
+.table1-tr td i{
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.table2-tr td{
+  padding-left: 70px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table1  th{
+  font-size: x-large;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/* 
+.c2{
+  padding-top:30px;
+  display: flex;
+  justify-content: space-around;
+}
+ */
+
+.d{
+  width: auto;
+  height: 80vh;
+}
+.c2{
+  position: absolute;
+  padding-top: 150px;
+}
+
+
+
+
+.e{
+  background: linear-gradient(to top, rgba(170, 237, 246, 0.501) 0%, rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgba(237, 237, 237, 0.721) 100%,rgb(237, 237, 237) 100%);
+  width: auto;
+  height: 40vh;
+}
+
+.footer{
+  background-color: #b2e3ee;
+  margin-top: auto;
+   padding-right: 80px;
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius:20px;
+  border-top-right-radius: 20px;
+}
+.logo-end{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.logo-img ul{
+  display: flex;
+}
+.logo-img img{
+  padding: 5px;
+  background-color: #66f4ef2c;
+}
+.logo-img1{
+  border-top: 4px solid  #66f4ef2c;
+  border-bottom: 4px solid  #66f4ef2c;
+  border-left: 4px solid  #66f4ef2c;
+  border-top-left-radius: 20px;
+}
+.logo-img2{
+  border-top: 4px solid  #66f4ef2c;
+  border-bottom: 4px solid  #66f4ef2c;
+  border-right: 4px solid  #66f4ef2c;
+  border-bottom-right-radius: 20px;
+}
+.logo-img ul li{
+  list-style-type: none;
+}
+.logo-text {
+  font-size: x-large;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table{
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+.table  th{
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table td{
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}

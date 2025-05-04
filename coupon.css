@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.all-coupon{
+    margin: 20px;
+    height: 60vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.coupon ul {
+  margin: 20px;
+  padding: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #eee9e9;
+  box-shadow: 10px 10px lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coupon ul li{
+    list-style-type: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coupon img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid rgba(33, 189, 228, 0.733);
+}
+.all-coupon::-webkit-scrollbar{
+    width: 6px;
+}
+.all-coupon::-webkit-scrollbar-thumb{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.all-card{
+    margin: 20px;
+    height: 60vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+   padding: 10px;
+   height:300px;
+   width: 250px;
+   border-radius: 10px;
+   background-color: #fff7f7;
+   box-shadow: 10px 10px lightgrey;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card ul li{
+    list-style-type: none;
+}
+ 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Apointment1.css">
+    <title>Appointment</title>
+</head>
+<body>
+    <div class="main">
+        <nav class="nav1">
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+               <li><a href="AboutUs.html">ABOUT US</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+               <li><a href="Apointment1.html">APPOINTMENT</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        <div class="align">
+            <form action="http://localhost:3000/appointment" method="POST">
+        <div class="form">
+            <div class="head">
+                <h2>Appointment</h2>
+            </div>
+            <h3></h3>
+            <div class="data">
+                <h3>Patient Details</h3>
+                <input type="name" name="name" placeholder="First Name" required><br>
+               
+                <input type="name" name="name" placeholder="Last Name"><br>
+               
+                <input type="number" name="number" placeholder="Mobile Number" required><br>
+               
+                <input type="email" name="email" placeholder="Email Id" required><br>
+               
+                <input type="password" placeholder="Password" required><br>
+                
+                    
+                    <div class="gen">
+                        <label for=""><h3>Gender :</h3></label>
+                    <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                   
+                    <label for="gender">Male</label>
+                 </div>
+                 <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label> 
+                  </div>
+                </div>
+                    <div class="div">
+                    <h3>Book Appoinment</h3>
+                        <input type="doctorID" name="doctorID" placeholder="Doctor ID" required>
+                        <h3>Appointment date and time</h3>
+                        <div class="div1">
+                        <input type="date" name="date" placeholder="Date" required>
+                        <input type="time" name="time" placeholder="Time" required>
+                        </div>
+                    </div>
+                
+
+                <div class="sub" style="display: flex; justify-content: center; align-items: center; height: 100px;">
+                   <input type="submit" value="Submit">
+                </div>
+                
+             </form>   
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg-img{
+    background-image: url(img/1.4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+.nav ul{
+    margin: 0%;
+    padding: 1%;
+    height: 3vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    gap: 90px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 255, 255, 0.723);
+   border-radius: 20px;
+  }
+  .nav1{
+    color: rgb(24, 83, 222);
+  }
+  .nav1 ul li a{
+    text-decoration: none;
+  }
+  .nav1 ul li a:hover{
+    color: rgb(87, 84, 84);
+    border-bottom: 2px solid gray;
+  }
+  .nav1 ul li:hover{
+    color:rgb(238, 194, 140);
+  }
+  .contaner{
+    background-color: bisque;
+    padding: 15px;
+    
+  }
+  .map-head{
+    background-color: rgb(248, 210, 162);
+    padding: 5px;
+    width: 60vw;
+    border-radius:20px ;
+  }
+  .contaner1{
+    background-color: rgb(244, 198, 141);
+    padding: 5px;
+    border-radius: 20px;
+    width: 60vw;
+    height: 97vh;
+  }
+  .map img{
+    padding: 10px;
+    border-radius: 20px;
+    height: 95vh;
+    width: 58vw;
+    
+  }
+  .value1{
+    background-color: rgb(224, 172, 110);
+    background-image: linear-gradient(0deg, rgba(236,238,231, 0.2) 0%, rgba(236,238,231, 0.2) 16.667%,rgba(233,246,229, 0.2) 16.667%, rgba(233,246,229, 0.2) 33.334%,rgba(184,195,177, 0.2) 33.334%, rgba(184,195,177, 0.2) 50.001%,rgba(246,247,232, 0.2) 50.001%, rgba(246,247,232, 0.2) 66.668%,rgba(209,212,205, 0.2) 66.668%, rgba(209,212,205, 0.2) 83.335%,rgba(224,249,223, 0.2) 83.335%, rgba(224,249,223, 0.2) 100.002%),linear-gradient(135deg, rgba(236,238,231, 0.2) 0%, rgba(236,238,231, 0.2) 16.667%,rgba(233,246,229, 0.2) 16.667%, rgba(233,246,229, 0.2) 33.334%,rgba(184,195,177, 0.2) 33.334%, rgba(184,195,177, 0.2) 50.001%,rgba(246,247,232, 0.2) 50.001%, rgba(246,247,232, 0.2) 66.668%,rgba(209,212,205, 0.2) 66.668%, rgba(209,212,205, 0.2) 83.335%,rgba(224,249,223, 0.2) 83.335%, rgba(224,249,223, 0.2) 100.002%),linear-gradient(90deg, rgba(236,238,231, 0.2) 0%, rgba(236,238,231, 0.2) 16.667%,rgba(233,246,229, 0.2) 16.667%, rgba(233,246,229, 0.2) 33.334%,rgba(184,195,177, 0.2) 33.334%, rgba(184,195,177, 0.2) 50.001%,rgba(246,247,232, 0.2) 50.001%, rgba(246,247,232, 0.2) 66.668%,rgba(209,212,205, 0.2) 66.668%, rgba(209,212,205, 0.2) 83.335%,rgba(224,249,223, 0.2) 83.335%, rgba(224,249,223, 0.2) 100.002%),linear-gradient(90deg, rgb(243,234,241),rgb(208,214,220));
+   border-radius: 20px;
+  }
+  .value-contaner{
+    display: flex;
+    justify-content: left;
+    gap: 35px;
+    padding: 10px;
+  }
+  .value{
+    background-color: rgb(235, 175, 119);
+    height: 45vh;
+    width: 85vw;
+    padding: 10px;    
+    border-radius: 20px;
+  }
+  .value img{
+   width: 8vw;
+   padding: 2px;
+
+  }
+ 
+  .value-contaner ul li{
+    list-style-type: none;
+   
+  }
